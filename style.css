@@ -6,17 +6,37 @@
 
 body {
     background-color: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
     background-color: #E9E9E9;
     width: 600px;
     margin: auto;
+
+    box-shadow: 1px 3px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .header {
-    padding: 20px;
+    padding: 40px;
 }
+
+.header h1 {
+    color: #006666;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.header h3 {
+    color: #008584;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .flex-container {
     display: flex;
